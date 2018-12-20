@@ -1,5 +1,5 @@
 export default function buildSlider() {
-    const sliderWrapper = document.getElementsByClassName('slider-wrapper')[0];
+const sliderWrapper = document.getElementsByClassName('slider-wrapper')[0];
 const sliderNav = document.getElementsByClassName('slider-nav')[0];
 const slides = [
     { name: '1 slide', img: '', startActive: true},
